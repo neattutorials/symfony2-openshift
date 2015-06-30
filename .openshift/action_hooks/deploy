@@ -8,5 +8,3 @@ composer install --no-dev --optimize-autoloader
 
 #if you are using DoctrineMigrationsBundle
 #php app/console doctrine:migrations:migrate
-
-php app/console cache:clear --env=prod --no-debug
