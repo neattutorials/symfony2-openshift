@@ -1,9 +1,11 @@
 #!/bin/sh
-#export SYMFONY_ENV=prod
+export SYMFONY_ENV=prod
 cd $OPENSHIFT_REPO_DIR
+
 #If you are planning to upload files - they have to be stored in $OPENSHIFT_DATA_DIR
 #Otherwise they will be deleted on every deployment.
 #ln -s $OPENSHIFT_DATA_DIR/uploads web
+
 composer install --no-dev --optimize-autoloader
 
 #if you are using DoctrineMigrationsBundle
