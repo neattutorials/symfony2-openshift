@@ -1,4 +1,4 @@
-symfony
+Deploy Symfony 2.7 to OpenShift
 =======
 
-A Symfony project created on June 30, 2015, 8:09 am.
+Read the tutorials [Neat Tutorials](http://blog.neattutorials.com/deploy-symfony2-on-openshift/)
